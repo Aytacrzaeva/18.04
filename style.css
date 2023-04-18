@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  body{
+    background-color: #6cd7e7;
+  }
+  .container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #todo {
+    width:540px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .errormsg {
+    color: red;
+    display: none;
+    margin-left: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 18px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .delete {
+    background-color: #dc3545;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  span.lead {
+    margin-right: 10px;
+  }
+  
+  li.done span.lead {
+    text-decoration: line-through;
+  }
+  
+  #clearAll {
+    background-color: #343a40;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    color: #fff;
+  }
+  
+.done {
+  text-decoration: line-through;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
